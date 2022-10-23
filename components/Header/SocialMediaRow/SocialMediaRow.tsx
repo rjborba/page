@@ -20,6 +20,10 @@ export const SocialMediaRow: FC = () => {
         a: {
           height: { xs: "28px", md: "38px" },
           width: { xs: "28px", md: "38px" },
+          transition: "0.15s",
+          "&:hover": {
+            transform: "scale(1.2)",
+          },
         },
       }}
     >

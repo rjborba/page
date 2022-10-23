@@ -13,6 +13,7 @@ export const Header: FC = () => {
         flexDirection: "column",
         justifyContent: "center",
         height: "100vh",
+        transition: "0.15s",
       }}
     >
       <Box
@@ -51,7 +52,7 @@ export const Header: FC = () => {
             height={{ xs: "unset", md: "382px" }}
             width={{ xs: "100%", md: "382px" }}
             maxWidth={{ xs: 500, md: "unset" }}
-            border="16px solid white"
+            border="12px solid white"
             margin="auto"
           >
             <Image
