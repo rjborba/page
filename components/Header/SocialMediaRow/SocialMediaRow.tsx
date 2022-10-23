@@ -23,7 +23,7 @@ export const SocialMediaRow: FC = () => {
         },
       }}
     >
-      <a target="_blank" href="https://github.com/rjborba/">
+      <a target="_blank" href="https://github.com/rjborba/" rel="noreferrer">
         <Image
           src={GithubIcon}
           layout="responsive"
@@ -34,10 +34,11 @@ export const SocialMediaRow: FC = () => {
       {/* <a
       target="_blank"
       href="https://www.linkedin.com/in/rodrigo-borba-37a282130/"
+      rel="noreferrer"
     >
       <Image src={LinkedinIcon}  />
     </a> */}
-      <a target="_blank" href="https://t.me/rjborba/">
+      <a target="_blank" href="https://t.me/rjborba/" rel="noreferrer">
         <Image
           src={TelegramIcon}
           layout="responsive"
@@ -45,7 +46,11 @@ export const SocialMediaRow: FC = () => {
           width="100%"
         />
       </a>
-      <a target="_blank" href="https://www.instagram.com/rjborba/">
+      <a
+        target="_blank"
+        href="https://www.instagram.com/rjborba/"
+        rel="noreferrer"
+      >
         <Image
           src={InstagramIcon}
           layout="responsive"
@@ -53,7 +58,11 @@ export const SocialMediaRow: FC = () => {
           width="100%"
         />
       </a>
-      <a target="_blank" href="https://www.facebook.com/rjborbalive/">
+      <a
+        target="_blank"
+        href="https://www.facebook.com/rjborbalive/"
+        rel="noreferrer"
+      >
         <Image
           src={FacebookIcon}
           layout="responsive"
@@ -61,7 +70,7 @@ export const SocialMediaRow: FC = () => {
           width="100%"
         />
       </a>
-      <a target="_blank" href="https://twitter.com/rjborba">
+      <a target="_blank" href="https://twitter.com/rjborba" rel="noreferrer">
         <Image
           src={TwitterIcon}
           layout="responsive"
