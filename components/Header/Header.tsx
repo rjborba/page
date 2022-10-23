@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FC } from "react";
 import BorbaImage from "../../images/borba.png";
 import GithubIcon from "../../images/social/GithubIcon.png";
-// import LinkedinIcon from "../../images/social/LinkedinIcon.png";
+import LinkedinIcon from "../../images/social/LinkedinIcon.png";
 import TelegramIcon from "../../images/social/TelegramIcon.png";
 import InstagramIcon from "../../images/social/InstagramIcon.png";
 import FacebookIcon from "../../images/social/FacebookIcon.png";
@@ -54,12 +54,12 @@ export const Header: FC = () => {
               <IconButton target="_blank" href="https://github.com/rjborba/">
                 <Image src={GithubIcon} height="38px" width="38px" />
               </IconButton>
-              {/* <IconButton
+              <IconButton
                 target="_blank"
                 href="https://www.linkedin.com/in/rodrigo-borba-37a282130/"
               >
                 <Image src={LinkedinIcon} height="38px" width="38px" />
-              </IconButton> */}
+              </IconButton>
 
               <IconButton target="_blank" href="https://t.me/rjborba/">
                 <Image src={TelegramIcon} height="38px" width="38px" />
