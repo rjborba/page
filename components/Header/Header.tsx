@@ -43,7 +43,7 @@ export const Header: FC = () => {
           <Typography fontSize={{ xs: 20, md: 36 }} fontWeight="light">
             I code for web3, teach people, fly airplanes and play guitar
           </Typography>
-          <Box width={{ xs: "300px", md: "100%" }}>
+          <Box width={{ xs: "300px", md: "400px" }}>
             <SocialMediaRow />
           </Box>
         </Box>
