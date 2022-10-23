@@ -5,12 +5,17 @@ export default function Document() {
     <Html>
       <Head>
         <title>Rodrigo Borba</title>
+        <meta
+          name="description"
+          content="I code for web3, teach people, fly airplanes and play guitar"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
+        <meta name="theme-color" content="#141414"></meta>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
