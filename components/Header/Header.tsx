@@ -54,12 +54,12 @@ export const Header: FC = () => {
               <IconButton target="_blank" href="https://github.com/rjborba/">
                 <Image src={GithubIcon} height="38px" width="38px" />
               </IconButton>
-              {/* <IconButton
+              <IconButton
                 target="_blank"
                 href="https://www.linkedin.com/in/rodrigo-borba-37a282130/"
               >
                 <Image src={LinkedinIcon} height="38px" width="38px" />
-              </IconButton> */}
+              </IconButton>
               <IconButton target="_blank" href="https://t.me/rjborba/">
                 <Image src={TelegramIcon} height="38px" width="38px" />
               </IconButton>
