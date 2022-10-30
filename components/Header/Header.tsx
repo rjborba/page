@@ -43,7 +43,7 @@ export const Header: FC = () => {
           flexDirection: "column",
           justifyContent: "center",
           // height: "calc(100vh - 120px)",
-          height: "100vh",
+          minHeight: "100vh",
           transition: "0.15s",
         }}
       >
