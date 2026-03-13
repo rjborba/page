@@ -3,7 +3,7 @@ import { FC } from "react";
 import Image from "next/image";
 
 import GithubIcon from "../../../images/social/GithubIcon.png";
-// import LinkedinIcon from "../../images/social/LinkedinIcon.png";
+import LinkedinIcon from "../../../images/social/LinkedinIcon.png";
 import TelegramIcon from "../../../images/social/TelegramIcon.png";
 import InstagramIcon from "../../../images/social/InstagramIcon.png";
 import FacebookIcon from "../../../images/social/FacebookIcon.png";
@@ -35,13 +35,13 @@ export const SocialMediaRow: FC = () => {
           width="100%"
         />
       </a>
-      {/* <a
-      target="_blank"
-      href="https://www.linkedin.com/in/rodrigo-borba-37a282130/"
-      rel="noreferrer"
-    >
-      <Image src={LinkedinIcon}  />
-    </a> */}
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/rodrigo-borba-37a282130/"
+        rel="noreferrer"
+      >
+        <Image src={LinkedinIcon} />
+      </a>
       <a target="_blank" href="https://t.me/rjborba/" rel="noreferrer">
         <Image
           src={TelegramIcon}
