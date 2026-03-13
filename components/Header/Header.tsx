@@ -91,6 +91,7 @@ export const Header: FC = () => {
             >
               <Image
                 src={BorbaImage1}
+                alt="Rodrigo Borba"
                 layout="responsive"
                 objectFit="cover"
                 height="100%"

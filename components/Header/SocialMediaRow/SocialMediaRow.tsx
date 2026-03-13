@@ -30,6 +30,7 @@ export const SocialMediaRow: FC = () => {
       <a target="_blank" href="https://github.com/rjborba/" rel="noreferrer">
         <Image
           src={GithubIcon}
+          alt="GitHub"
           layout="responsive"
           height="100%"
           width="100%"
@@ -40,11 +41,12 @@ export const SocialMediaRow: FC = () => {
         href="https://www.linkedin.com/in/rodrigo-borba-37a282130/"
         rel="noreferrer"
       >
-        <Image src={LinkedinIcon} />
+        <Image src={LinkedinIcon} alt="LinkedIn" />
       </a>
       <a target="_blank" href="https://t.me/rjborba/" rel="noreferrer">
         <Image
           src={TelegramIcon}
+          alt="Telegram"
           layout="responsive"
           height="100%"
           width="100%"
@@ -57,6 +59,7 @@ export const SocialMediaRow: FC = () => {
       >
         <Image
           src={InstagramIcon}
+          alt="Instagram"
           layout="responsive"
           height="100%"
           width="100%"
@@ -69,6 +72,7 @@ export const SocialMediaRow: FC = () => {
       >
         <Image
           src={FacebookIcon}
+          alt="Facebook"
           layout="responsive"
           height="100%"
           width="100%"
@@ -77,6 +81,7 @@ export const SocialMediaRow: FC = () => {
       <a target="_blank" href="https://twitter.com/rjborba" rel="noreferrer">
         <Image
           src={TwitterIcon}
+          alt="Twitter"
           layout="responsive"
           height="100%"
           width="100%"

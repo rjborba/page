@@ -1,10 +1,14 @@
 import { Box, Container, Grid, Stack, Typography } from "@mui/material";
 import type { NextPage } from "next";
+import Head from "next/head";
 import { Header } from "../components/Header";
 
 const Home: NextPage = () => {
   return (
     <Container fixed sx={{ maxWidth: { sm: 600, md: 900, lg: 1200 } }}>
+      <Head>
+        <title>Rodrigo Borba</title>
+      </Head>
       <Header />
       <section style={{ display: "none" }}>
         <main>

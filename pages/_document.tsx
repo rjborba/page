@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <title>Rodrigo Borba</title>
         <meta
           name="description"
           content="I code for web3, teach people, fly airplanes and play guitar"
